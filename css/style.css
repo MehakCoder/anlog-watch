@@ -23,5 +23,28 @@
     box-shadow: 0 2px 4px -1px black;
 }
 .hour-hand{
-    
+    position: absolute;
+    z-index: 5;
+    width: 4px;
+    height: 65px;
+    background: white;
+    top: 79px;
+    transform-origin: 50% 72px;
+    left: 50%;
+    margin-left: -2px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.minute-hand{
+    position: absolute;
+    z-index: 6;
+    width: 4px;
+    height: 10px;
+    background:white;
+    top: 46px;
+    left: 50%;
+    margin-left: -2px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform-origin: 50% 105px; 
 }
