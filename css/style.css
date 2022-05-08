@@ -102,7 +102,7 @@ body{
     position: relative;
 }
 
-.minute-hand .hand{
+.minute-hand-wrapper .hand{
     width: 4px;
     height: 200px;
     background-color: #404b69;
