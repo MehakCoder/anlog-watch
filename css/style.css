@@ -8,4 +8,15 @@ body{
     border: 20px solid #00818a;
     border-radius: 50%;
     margin: 0 auto;
+    position: relative;
+}
+
+.point{
+   width: 20px;
+   height: 20px;
+   background-color: #283149;
+   border-radius: 50%;
+   position: absolute;
+   top: 240px;
+   left: 240px; 
 }
