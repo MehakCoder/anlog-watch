@@ -20,3 +20,9 @@ body{
    top: 240px;
    left: 240px; 
 }
+.hour{
+   font-size: 30px;
+   font-weight: bold;
+   color: #283149;
+   position: absolute; 
+}
