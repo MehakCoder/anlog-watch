@@ -107,6 +107,17 @@ body{
     height: 200px;
     background-color: #404b69;
     position: absolute;
-    left: 198px;
-    
+    left: 198px; 
 }
+
+.minute-hand-wrapper .arrow{
+    font-size: 30px;
+    font-weight: bold;
+    color: #404b69;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 190px;
+    top: -7px;
+}
+
+
