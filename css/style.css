@@ -88,3 +88,14 @@ body{
     top: 90px;
     left: 42.5%;
 }
+
+.minute-hand-wrapper{
+    width: 400px;
+    height: 400px;
+    background-color: #123456;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
+}
+
