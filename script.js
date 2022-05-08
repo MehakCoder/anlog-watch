@@ -9,6 +9,7 @@ setInterval(
       second = d.getSeconds();
       minute = d.getMinutes();
       hour = d.getHours();
+      document.getElementById("second-hand").style.transform = "rotate(" + second + "deg)"
    }, 1000
 );
 
