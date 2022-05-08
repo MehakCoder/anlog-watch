@@ -99,3 +99,12 @@ body{
     border-radius: 50%;
 }
 
+.minute-hand{
+    position: relative;
+}
+
+.minute-hand .hand{
+    width: 4px;
+    height: 200px;
+    
+}
