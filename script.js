@@ -7,9 +7,12 @@ setInterval(
    function() {
      d = new Date();
       second = d.getSeconds() *  6;
-      minute = d.getMinutes();
+      minute = d.getMinutes() *  6;
       hour = d.getHours();
       document.getElementById("second-hand").style.transform = "rotate(" + second + "deg)";
-   }, 1000
+      document.getElementById("minute-hand").style.transform = "rotate(" + minute + "deg)";
+      document.getElementById("hour-hand").style.transform = "rotate(" + second + "deg)";
+      
+    }, 1000
 );
 
