@@ -162,6 +162,14 @@ body{
 .second-hand{
     position: relative;
 }
+.second-hand .hand{
+    width: 2px;
+    height: 175px;
+    background-color: #404b69;
+    position: absolute;
+    left: 174px; 
+}
+
 
 
 
