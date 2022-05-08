@@ -102,7 +102,7 @@ body{
     position: relative;
 }
 
-.minute-hand-wrapper .hand{
+.minute-hand .hand{
     width: 4px;
     height: 200px;
     background-color: #404b69;
@@ -110,7 +110,7 @@ body{
     left: 198px; 
 }
 
-.minute-hand-wrapper .arrow{
+.minute-hand .arrow{
     font-size: 30px;
     font-weight: bold;
     color: #404b69;
