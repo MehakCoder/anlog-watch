@@ -106,5 +106,5 @@ body{
 .minute-hand .hand{
     width: 4px;
     height: 200px;
-    
+    background-color: #404b69;
 }
