@@ -140,4 +140,14 @@ body{
     left: 148px;
 }
 
+.hour-hand .arrow{
+    font-size: 30px;
+    font-weight: bold;
+    color: #404b69;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 190px;
+    top: -7px;
+}
+
 
